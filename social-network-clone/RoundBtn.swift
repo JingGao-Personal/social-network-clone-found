@@ -9,7 +9,7 @@
 import UIKit
 
 class RoundBtn: UIButton {
-
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         
@@ -20,10 +20,12 @@ class RoundBtn: UIButton {
         imageView?.contentMode = .scaleAspectFit
         layer.cornerRadius = 5.0
     }
-    
+
     override func layoutSubviews() {
         super.layoutSubviews()
         
         layer.cornerRadius = self.frame.width / 2
     }
+    
+    
 }
