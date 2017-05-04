@@ -14,10 +14,10 @@
 		DC3890A31EB169AE00C92F80 /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3890A21EB169AE00C92F80 /* RoundBtn.swift */; };
 		DC3890A51EB16F5700C92F80 /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3890A41EB16F5700C92F80 /* FancyField.swift */; };
 		DC3890A71EB174E900C92F80 /* FancyBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3890A61EB174E900C92F80 /* FancyBtn.swift */; };
+		DC50B67C1EBAF51C00361A48 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD36A061EB6D5C700F01C42 /* PostCell.swift */; };
 		DC7160031EB1957E00D666B7 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC7160021EB1957E00D666B7 /* FBSDKLoginKit.framework */; };
 		DCB428E71EB88F0B006D67FB /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB428E61EB88F0B006D67FB /* DataService.swift */; };
 		DCD36A051EB6B3FA00F01C42 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD36A041EB6B3FA00F01C42 /* CircleView.swift */; };
-		DCD36A071EB6D5C700F01C42 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD36A061EB6D5C700F01C42 /* PostCell.swift */; };
 		DCDE49C71EB0724200498F1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE49C61EB0724200498F1F /* AppDelegate.swift */; };
 		DCDE49C91EB0724200498F1F /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE49C81EB0724200498F1F /* SignInVC.swift */; };
 		DCDE49CC1EB0724200498F1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCDE49CA1EB0724200498F1F /* Main.storyboard */; };
@@ -308,7 +308,7 @@
 				DC38909E1EB164C000C92F80 /* FancyView.swift in Sources */,
 				DC3890A11EB1669000C92F80 /* Constants.swift in Sources */,
 				DC3890A71EB174E900C92F80 /* FancyBtn.swift in Sources */,
-				DCD36A071EB6D5C700F01C42 /* PostCell.swift in Sources */,
+				DC50B67C1EBAF51C00361A48 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

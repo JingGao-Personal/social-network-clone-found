@@ -329,8 +329,8 @@
                                         <connections>
                                             <outlet property="caption" destination="890-mf-kd1" id="eag-DY-AXy"/>
                                             <outlet property="likesLbl" destination="3qv-Ky-Fit" id="LxJ-Ne-PEU"/>
-                                            <outlet property="pofileImg" destination="v4J-HN-adL" id="Z3D-ez-1pd"/>
-                                            <outlet property="postImg" destination="HBp-Tz-ryu" id="yIr-M0-kd2"/>
+                                            <outlet property="postImg" destination="v4J-HN-adL" id="Duf-kW-Efb"/>
+                                            <outlet property="profileImg" destination="HBp-Tz-ryu" id="1Sy-D1-s1B"/>
                                             <outlet property="usernameLbl" destination="RvN-yN-h02" id="DsU-Yk-S8U"/>
                                         </connections>
                                     </tableViewCell>

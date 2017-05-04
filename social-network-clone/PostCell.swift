@@ -11,11 +11,11 @@ import Firebase
 
 class PostCell: UITableViewCell {
     
-    @IBOutlet weak var pofileImg: UIImageView!
     @IBOutlet weak var usernameLbl: UILabel!
-    @IBOutlet weak var postImg: UIImageView!
     @IBOutlet weak var caption: UITextView!
     @IBOutlet weak var likesLbl: UILabel!
+    @IBOutlet weak var profileImg: CircleView!
+    @IBOutlet weak var postImg: UIImageView!
     
     var post: Post!
     
