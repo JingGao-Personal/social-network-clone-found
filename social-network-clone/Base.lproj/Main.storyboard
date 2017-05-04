@@ -187,13 +187,17 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Eky-Hz-7Ah">
                                         <rect key="frame" x="8" y="8" width="327" height="51"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="add-image" translatesAutoresizingMaskIntoConstraints="NO" id="jlZ-MD-8Ya" customClass="CircleView" customModule="social_network_clone" customModuleProvider="target">
+                                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="add-image" translatesAutoresizingMaskIntoConstraints="NO" id="jlZ-MD-8Ya" customClass="CircleView" customModule="social_network_clone" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="51" height="51"/>
                                                 <color key="backgroundColor" red="0.0" green="0.51372549020000002" blue="0.56078431370000004" alpha="1" colorSpace="calibratedRGB"/>
+                                                <gestureRecognizers/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="51" id="HEb-Ue-3aj"/>
                                                     <constraint firstAttribute="height" constant="51" id="k0k-V1-05D"/>
                                                 </constraints>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="Jxv-ze-PHi" appends="YES" id="JDd-iz-rGS"/>
+                                                </connections>
                                             </imageView>
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Add a caption" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="piA-Ke-0yZ" customClass="FancyField" customModule="social_network_clone" customModuleProvider="target">
                                                 <rect key="frame" x="61" y="0.0" width="205" height="51"/>
@@ -348,6 +352,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="imageAdd" destination="jlZ-MD-8Ya" id="k2Y-d6-C9t"/>
                         <outlet property="tableView" destination="w4y-Dx-C8R" id="892-JO-0XL"/>
                         <segue destination="BYZ-38-t0r" kind="show" identifier="goToSignIn" id="Z8r-Z3-pf6"/>
                     </connections>
@@ -356,6 +361,11 @@
                 <tapGestureRecognizer id="CB2-6Y-7lc">
                     <connections>
                         <action selector="signOutTapped:" destination="Orx-CJ-NZ0" id="jJ4-6M-W07"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="Jxv-ze-PHi">
+                    <connections>
+                        <action selector="addImageTapped:" destination="Orx-CJ-NZ0" id="hcL-3s-e9z"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
